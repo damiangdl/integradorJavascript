@@ -1,0 +1,63 @@
+header .nav-link:hover,header .nav-item:last-child>.nav-link:hover{
+    color: whitesmoke !important;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+}
+
+.textbanner {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    background: url(./scr/ba1.jpg),rgb(0, 0, 0, 0.6);
+    background-blend-mode: color;
+    background-size: cover;
+    height: 70vh;
+    justify-content: end;
+    align-items: flex-end;
+    color: white;
+    text-align: right;
+}
+
+.textbanner p {
+    max-width: 560px;
+}
+
+
+
+.titleora {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-group {
+    gap: 30px;
+}
+
+.card-group>.card {
+    border: solid 1px rgb(202, 197, 197) !important;
+    border-radius: 5px !important;
+    -webkit-border-radius: 5px !important;
+    -moz-border-radius: 5px !important;
+    -ms-border-radius: 5px !important;
+    -o-border-radius: 5px !important;
+}
+
+.caraside {
+    background-color: rgb(48, 47, 47);
+    color: white;
+    justify-content: left;
+    text-align: left
+}
+
+.navfooter {
+    background: linear-gradient(90deg, rgba(2, 0, 36, 0.9682247899159664) 0%, rgb(3, 64, 95) 36%, rgb(2, 74, 102) 100%);
+    color: white;
+}
+
+.navfooter a {
+    color: white;
+}
